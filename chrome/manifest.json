@@ -1,0 +1,12 @@
+{
+  "name": "NoWiki",
+  "description": "Redirect Wikipedia requests to InfoGalactic",
+  "version": "0.1",
+  "manifest_version": 2,
+  "background": {"scripts":["background.js"},
+  "permissions": [
+    "webRequest",
+    "*wikipedia.org/*",
+    "webRequestBlocking"
+  ]
+}
